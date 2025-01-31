@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>AI Researcher | CFD Enthusiast | Deep Learning Engineer</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Brief introduction about your research, interests, and background.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Automated Crater Geometry Extraction</strong> - Deep learning approach for PSI image processing.</li>
+            <li><strong>VortexNet</strong> - GNN-based surrogate model for aerodynamic predictions.</li>
+            <li><strong>AI for Shock Processing</strong> - ML-assisted workflow for high-speed flow simulations.</li>
+        </ul>
+    </section>
+    
+    <section id="publications">
+        <h2>Publications & Talks</h2>
+        <ul>
+            <li><a href="#">Deep Learning for PSI Geometry Extraction - AIAA SciTech 2025</a></li>
+            <li><a href="#">VortexNet: GNN-based Surrogate Model - Conference Paper</a></li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>GitHub: <a href="https://github.com/your-username">your-username</a></p>
+        <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
+    </section>
+</body>
+</html>
+
